@@ -54,7 +54,8 @@ export default async function Home({ searchParams }: SearchParamProps) {
           Trust by <br /> Thousands of Events
         </h2>
         <div className="flex w-full flex-col gap-5 md:flex-row">
-          search catergoryFilter
+          <Search />
+          <CategoryFilter />
         </div>
 
         <Collection
