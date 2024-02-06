@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const DeleteConfirmation = () => {
-  return (
-    <div>DeleteConfirmation</div>
-  )
-}
+  return <div>DeleteConfirmation</div>;
+};
 
-export default DeleteConfirmation
+export default DeleteConfirmation;
